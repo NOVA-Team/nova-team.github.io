@@ -1,3 +1,3 @@
-# novaapi.github.io
+# NOVA Website
 NOVA's Github Website
 
