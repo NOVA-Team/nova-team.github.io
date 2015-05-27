@@ -335,11 +335,12 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
+    color: #E6E6E6;
 }
 
 footer h3 {
     margin-bottom: 30px;
+	color: #E6E6E6;
 }
 
 footer .footer-above {
