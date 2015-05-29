@@ -1,0 +1,27 @@
+/*
+NOVA custom css
+Author: Shadowfacts
+*/
+
+.nova-nav {
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-bottom: thick solid #E6E6E6;
+}
+
+.nova-header {
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+
+.nova-desc {
+	font-size: 25px;
+}
+
+.nova-downloads {
+	background-color: #FAFAFA;
+}
+
+.nova-downloads-bumper {
+	padding-top: 64px;
+}

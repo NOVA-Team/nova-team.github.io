@@ -24,6 +24,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <!-- Custom NOVA CSS -->
+    <link href="css/nova.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -36,7 +39,7 @@
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #FFFFFF; border-style: solid; border-bottom: thick solid #E6E6E6;">
+    <nav class="navbar navbar-default navbar-fixed-top nova-nav">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -72,41 +75,46 @@
     </nav>
 
     <!-- Header -->
-    <div class="jumbotron" style="padding-top: 200px; padding-bottom: 100px;">
+    <div class="jumbotron nova-header">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>NOVA</h1>
             </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center" style="font-size: 25px;">
+            <div class="col-lg-8 col-lg-offset-2 text-center nova-desc">
 				<p>NOVA (Neatly Organized Voxel API) is a modding framework for voxel games.</p>
 				<p>It provides an abstraction that is easy to use and maintain while giving developers confidence that their work can be used across different voxel platforms.</p>
             </div>
         </div>
     </div>
     <!-- downloads Section -->
-    <section class="success" id="downloads" style="background-color: #FAFAFA;">
+    <section class="success" id="downloads nova-downloads">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>downloads</h2>
+                    <h2>Downloads</h2>
                 </div>
-                <div class="col-lg-12" style="padding-top: 64px;"></div>
+                <div class="col-lg-12 nova-downloads-bumper"></div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <div class="alert alert-danger text-center" role="alert">Note that NovaAPI is still under <i>heavy</i> development. Some things may not be stable, other may change</div>
+                    <div class="alert alert-danger text-center" role="alert">
+                        Note that NOVA is still under <i>heavy</i> development. Some things may not be stable, others may change.
+                    </div>
                 </div>
+
                 <div class="col-lg-4 col-lg-offset-2">
                     <p>NOVA consists of two parts, NovaCore and and the NOVA game wrappers. If you are a game user you probably want to get wrapper for your game.</p>
                 </div>
+
                 <div class="col-lg-4">
-                    <p>If you are a developer you may want bare NovaCore. You can get it here, but we recommend using NovaGradle for development.</p>
-                    <p>See <a href="https://novaapi.github.io/docs/Setting%20up%20development%20workspace/">Setting up development workspace</a></p>
+                    <p>If you are a developer you may want the bare NovaCore. You can get it here, but we recommend using NovaGradle for development.</p>
+                    <p>See <a href="http://novaapi.github.io/docs/Development%20Workspace%20Setup/">Development Workspace Setup</a></p>
                 </div>
+
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <div class="btn-group btn-default btn-group-justified" role="group">
                         <a href="http://magik6k.net:8001/job/NovaAPI/lastSuccessfulBuild/artifact/build/libs/NovaCore-0.1.0-SNAPSHOT.jar" class="btn btn-lg">
-                            <i class="fa fa-download"></i> Download NovaAPI
+                            <i class="fa fa-download"></i> Download NovaCore
                         </a>
 
                         <div class="btn-group" role="group">
@@ -116,11 +124,11 @@
                             </button>
 
                             <ul class="dropdown-menu" role="menu">
-                            <li>
-                                <a href="http://magik6k.net:8001/job/NovaWrapper-MC/lastSuccessfulBuild/artifact/build/libs/NovaWrapper-MC1.7.10-0.1-SNAPSHOT.jar">
-                                    <i class="fa fa-download"></i> Minecraft 1.7.10 0.1-SNAPSHOT
-                                </a>
-                            </li>
+                                <li>
+                                    <a href="http://magik6k.net:8001/job/NovaWrapper-MC/lastSuccessfulBuild/artifact/build/libs/NovaWrapper-MC1.7.10-0.1-SNAPSHOT.jar">
+                                        <i class="fa fa-download"></i> Minecraft 1.7.10 0.1-SNAPSHOT
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
