@@ -19,6 +19,28 @@ Author: Shadowfacts
 	font-size: 25px;
 }
 
+.nova-why-use {
+	
+	.item {
+		height: 200px;
+		p {
+			color: #555;
+			font-weight: 100;
+			text-shadow: none;
+		}
+	}
+
+	.carousel-control {
+		background: none;
+		color: #2C3E50;
+	}
+
+	.carousel-indicators > li {
+		border-color: #999;
+		background-color: #555;
+	}
+}
+
 .nova-downloads {
 	margin-bottom: 0px;
 
