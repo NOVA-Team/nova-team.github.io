@@ -1,0 +1,10 @@
+# Site settings
+title: NOVA
+description: NOVA (Neatly Organized Voxel API) is a modding framework for voxel games.
+author: shadowfacts
+baseurl: ""
+url: "http://novaapi.net"
+
+# Build Settings
+markdown: redcarpet
+permalink: /:title/
