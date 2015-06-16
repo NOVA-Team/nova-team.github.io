@@ -23,7 +23,7 @@ Author: Shadowfacts
 	margin-top: 20px;
 
 	.slick-slide {
-		height: 250px;
+		height: 200px;
 
 		margin: 0 20px;
 		padding: 10px;
@@ -59,6 +59,14 @@ Author: Shadowfacts
 		}
 	}
 }
+
+@media (max-width: 350px) {
+  .slick-slide {
+    height: 275px !important;
+  }
+}
+
+// @media (max-width: )
 
 .nova-slider-controls {
 	width: 50%;
