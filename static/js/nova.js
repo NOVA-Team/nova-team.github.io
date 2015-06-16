@@ -18,20 +18,20 @@ $(document).ready(function() {
 			{
 				breakpoint: 768,
 				settings: {
-					arrows: false,
+					arrows: true,
 					centerMode: true,
-					centerPadding: '40px',
-					slidesToShow: 3
+					centerPadding: '80px',
+					slidesToShow: 1,
 					slidesToScroll: 1
 				}
 			},
 			{
 				breakpoint: 480,
 				settings: {
-					arrows: false,
+					arrows: true,
 					centerMode: true,
 					centerPadding: '40px',
-					slidesToShow: 3
+					slidesToShow: 1,
 					slidesToScroll: 1
 				}
 			}
