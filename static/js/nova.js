@@ -22,6 +22,7 @@ $(document).ready(function() {
 					centerMode: true,
 					centerPadding: '40px',
 					slidesToShow: 3
+					slidesToScroll: 1
 				}
 			},
 			{
@@ -31,6 +32,7 @@ $(document).ready(function() {
 					centerMode: true,
 					centerPadding: '40px',
 					slidesToShow: 3
+					slidesToScroll: 1
 				}
 			}
 		]
