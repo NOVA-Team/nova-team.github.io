@@ -19,32 +19,69 @@ Author: Shadowfacts
 	font-size: 25px;
 }
 
-.nova-why-use {
-	
-	.item {
-		height: 200px;
+.nova-slider {
+	margin-top: 20px;
+
+	.slick-slide {
+		margin: 0 20px;
+		padding: 10px;
+
+		background-color: #FAFAFA;
+
+		border-color: #E7E7E7;
+		border-style: solid;
+		border-width: 2px;
+
+		-webkit-transform:	scale(0.85, 0.85);
+		-moz-transform:		scale(0.85, 0.85);
+		-ms-transform:		scale(0.85, 0.85);
+		-o-transform:		scale(0.85, 0.85);
+		transform:			scale(0.85, 0.85);
+
+		&.slick-center {
+			-webkit-transform:	scale(1, 1);
+			-moz-transform:		scale(1, 1);
+			-ms-transform:		scale(1, 1);
+			-o-transform:		scale(1, 1);
+			transform:			scale(1, 1);
+		}
+
 		p {
-			color: #555;
-			font-weight: 100;
-			text-shadow: none;
+			text-align: center;
+			font-weight: 200;
 		}
 	}
+}
 
-	.carousel-control {
-		background: none;
-		color: #2C3E50;
-	}
+.nova-slider-controls {
+	width: 50%;
 
-	.carousel-indicators > li {
-		border-color: #999;
-		background-color: #555;
+	margin-top: 25px;
+
+	margin-left: auto;
+	margin-right: auto;
+	
+	a {
+		font-size: 32px;
+
+		&.left {
+			float: left;
+		}
+
+		&.right {
+			float: right;
+		}
+
+		&:hover {
+			color: #000;
+		}
 	}
 }
 
 .nova-downloads {
 	margin-bottom: 0px;
 
-	background-color: #FAFAFA;
+	background-color: #fafafa;
 
 	.nova-core {
 		color: #2C3E50;
