@@ -1,10 +1,6 @@
 // NOVA JavaScript
 // Author: shadowfacts
 $(document).ready(function() {
-	$(".nova-use-id").each(function (i) {
-		$(this).text(i + 1);
-	})
-
 	$('.nova-slider').slick({
 		centerMode: true,
 		centerPadding: '60px',
