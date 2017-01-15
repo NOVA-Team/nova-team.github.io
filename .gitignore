@@ -2,13 +2,16 @@
 /*
 
 # Except:
-!LICENSE.txt
+!LICENSE
 
 # Sources
 !/_includes
 !/_layouts
 !/_sass
 !/static
+!index.html
+!_config.yml
+!CNAME
 
 # github
 !/.gitignore
