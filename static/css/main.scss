@@ -7,8 +7,13 @@
 NOVA CSS
 Author: shadowfacts
 */
+/* Source Sans Pro */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
+
 /* Twitter Bootstrap */
 @import "bootstrap.min";
+@import "bootstrap-grid.min";
+@import "bootstrap-reboot.min";
 
 /* Freelancer */
 @import "freelancer";

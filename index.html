@@ -3,25 +3,25 @@ layout: default
 ---
 
 <!-- Jumbotron -->
-<div class="jumbotron nova-header">
-	<div class="row">
-		<div class="col-lg-12 text-center">
-			<h1>NOVA</h1>
+<section class="jumbotron nova-header rounded-0 mw-100vw">
+	<div class="container">
+		<div class="row justify-content-center">
+			<h1 class="nova-title text-center mb-5 col-12">NOVA</h1>
 		</div>
-		<div class="col-lg-8 col-lg-offset-2 text-center nova-desc">
-			<p>NOVA (Neatly Organized Voxel API) is a modding framework for voxel games.</p>
-			<p>It provides an abstraction that is easy to use and maintain while giving developers confidence that their work can be used across different voxel games and their versions.</p>
+		<div class="row justify-content-center">
+			<div class="col-lg-8 col-md-10 col-12 text-center nova-desc">
+				<p>NOVA (Neatly Organized Voxel API) is a modding framework for voxel games.</p>
+				<p>It provides an abstraction that is easy to use and maintain while giving developers confidence that their work can be used across different voxel games and their versions.</p>
+			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 <!-- Why Use NOVA? -->
 <section class="nova-why-use">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2>Why use NOVA</h2>
-			</div>
+		<div class="row justify-content-center">
+			<h2 class="nova-title text-center mb-5 col-12">Why use NOVA</h2>
 		</div>
 
 		<div class="nova-slider">
@@ -56,99 +56,36 @@ layout: default
 <br>
 <section class="jumbotron nova-downloads">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2 class="nova-title">Downloads</h2>
-			</div>
-			<div class="col-lg-12 nova-bumper"></div>
+		<div class="row justify-content-center">
+			<h2 class="nova-title text-center mb-5 col-auto mw-100vw">Downloads</h2>
 		</div>
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+		<div class="row justify-content-center">
+			<div class="col-xl-8 col-lg-10 col-12">
 				<div class="alert alert-danger text-center" role="alert">
 					Note that NOVA is still under <i>heavy</i> development. Some things may not be stable, others may change.
 				</div>
 			</div>
-
-			<div class="hidden-xs">
-				<div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">
-					<p>NOVA consists of two parts, NovaCore and and the NOVA game wrappers. If you are a game user you probably want to get wrapper for your game.</p>
-				</div>
-
-				<div class="col-lg-4 col-md-5 col-sm-6">
-					<p>If you are a mod developer you may want the mod template. You can get it here as zip.</p>
-					<p>
-						See <a href="/docs/Mod%20Development/NOVA%20Gradle/" class="nova-link">NOVA Gradle</a> and
-						<a href="/docs/Mod%20Development/Getting%20Started/" class="nova-link">Getting Started</a> on Nova Docs
-					</p>
-				</div>
-
-				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 text-center">
-					<div class="btn-group btn-group-justified" role="group">
-						<div class="btn-group" role="group">
-							<button type="button" class="btn btn-lg btn-success dropdown-toggle disabled" data-toggle="dropdown" aria-expanded="false">
-								Download game wrapper
-								<span class="caret"></span>
-							</button>
-							<ul class="dropdown-menu nova-dropdown-menu" role="menu">
-								<li>
-									<a href="" class="nova-dl-main">
-										<i class="fa fa-download"></i> Minecraft 1.7.10 0.1.0-SNAPSHOT
-									</a>
-								</li>
-								<li>
-									<a href="" class="nova-dl-main">
-										<i class="fa fa-download"></i> Minecraft 1.8 0.1.0-SNAPSHOT
-									</a>
-								</li>
-							</ul>
-						</div>
-						<a href="https://github.com/NOVA-Team/NOVA-Template/archive/master.zip" class="btn btn-lg btn-default nova-core">
-							<i class="fa fa-download"></i> Download NOVA Mod Template
-						</a>
-					</div>
-				</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-xl-4 col-lg-5 col-md-6">
+				<p>NOVA consists of two parts, NovaCore and and the NOVA game wrappers. If you are a game user you probably want to get wrapper for your game.</p>
 			</div>
-
-			<div class="visible-xs container">
-				<div class="row" style="margin-bottom: 20px;">
-					<div class="col-xs-12">
-						<p>NOVA consists of two parts, NovaCore and and the NOVA game wrappers. If you are a game user you probably want to get wrapper for your game.</p>
-						<div class="btn-group btn-group-justified" role="group">
-							<div class="btn-group" role="group">
-								<button type="button" class="btn btn-lg btn-success dropdown-toggle disabled" data-toggle="dropdown" aria-expanded="false">
-									Download game wrapper
-									<span class="caret"></span>
-								</button>
-								<ul class="dropdown-menu nova-dropdown-menu" role="menu">
-									<li>
-										<a href="" class="nova-dl-main">
-											<i class="fa fa-download"></i> Minecraft 1.7.10 0.1.0-SNAPSHOT
-										</a>
-									</li>
-									<li>
-										<a href="" class="nova-dl-main">
-											<i class="fa fa-download"></i> Minecraft 1.8 0.1.0-SNAPSHOT
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-xs-12">
-						<p>If you are a mod developer you may want the mod template. You can get it here as zip.</p>
-						<p>
-							See <a href="/docs/Mod%20Development/NOVA%20Gradle/" class="nova-link">NOVA Gradle</a> and
-							<a href="/docs/Mod%20Development/Getting%20Started/" class="nova-link">Getting Started</a> on Nova Docs
-						</p>
-						<div class="btn-group btn-group-justified" role="group">
-							<a href="https://github.com/NOVA-Team/NOVA-Template/archive/master.zip" class="btn btn-lg btn-default nova-core">
-								<i class="fa fa-download"></i> Download NOVA Mod Template
-							</a>
-						</div>
-					</div>
+			<div class="col-12 d-md-none mb-4">
+				{% include index/btn-download.html type="mobile" %}
+			</div>
+			<div class="col-xl-4 col-lg-5 col-md-6">
+				<p>If you are a mod developer you may want the mod template. You can get it here as a zip.</p>
+				<p>
+					See <a href="/docs/Mod%20Development/NOVA%20Gradle/" class="nova-link">NOVA Gradle</a> and
+					<a href="/docs/Mod%20Development/Getting%20Started/" class="nova-link">Getting Started</a> on Nova Docs
+				</p>
+			</div>
+			<div class="col-xl-8 col-lg-10 col-12 text-center">
+				<div class="btn-group d-flex" role="group">
+					{% include index/btn-download.html %}
+					<a href="https://github.com/NOVA-Team/NOVA-Template/archive/master.zip" class="btn w-100 btn-lg btn-secondary text-white px-1">
+						<i class="fa fa-download"></i> Download NOVA Mod Template
+					</a>
 				</div>
 			</div>
 		</div>
